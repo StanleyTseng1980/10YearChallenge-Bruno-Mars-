@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		750F4E6F237D362300D5D8D4 /* 20091215Nothin On You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 750F4E6E237D362300D5D8D4 /* 20091215Nothin On You.mp3 */; };
+		75C0E59C237C1FDF00A36E7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C0E59B237C1FDF00A36E7C /* AppDelegate.swift */; };
+		75C0E59E237C1FDF00A36E7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C0E59D237C1FDF00A36E7C /* SceneDelegate.swift */; };
+		75C0E5A0237C1FDF00A36E7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C0E59F237C1FDF00A36E7C /* ViewController.swift */; };
+		75C0E5A3237C1FDF00A36E7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75C0E5A1237C1FDF00A36E7C /* Main.storyboard */; };
+		75C0E5A5237C1FEA00A36E7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75C0E5A4237C1FEA00A36E7C /* Assets.xcassets */; };
+		75C0E5A8237C1FEA00A36E7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75C0E5A6237C1FEA00A36E7C /* LaunchScreen.storyboard */; };
+		75C0E5BF237CFBC000A36E7C /* 20121206Locked Out Of Heaven.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C0E5B0237CFBB500A36E7C /* 20121206Locked Out Of Heaven.mp3 */; };
+		75C0E5C0237CFBC000A36E7C /* 20110822Marry You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C0E5B1237CFBB600A36E7C /* 20110822Marry You.mp3 */; };
+		75C0E5C1237CFBC000A36E7C /* 20130115When I Was Your Man.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C0E5B2237CFBB600A36E7C /* 20130115When I Was Your Man.mp3 */; };
+		75C0E5C2237CFBC000A36E7C /* 20110215The Lazy Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C0E5B3237CFBB700A36E7C /* 20110215The Lazy Song.mp3 */; };
+		75C0E5C3237CFBC000A36E7C /* 2016100724K Magic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C0E5B4237CFBB800A36E7C /* 2016100724K Magic.mp3 */; };
+		75C0E5C4237CFBC000A36E7C /* 20180103Finesse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C0E5B5237CFBB800A36E7C /* 20180103Finesse.mp3 */; };
+		75C0E5C5237CFBC000A36E7C /* 20141110Uptown Funk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C0E5B6237CFBB900A36E7C /* 20141110Uptown Funk.mp3 */; };
+		75C0E5C6237CFBC000A36E7C /* 20100928Grenade.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C0E5B7237CFBBA00A36E7C /* 20100928Grenade.mp3 */; };
+		75C0E5C7237CFBC000A36E7C /* 20100309Billionaire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C0E5B8237CFBBA00A36E7C /* 20100309Billionaire.mp3 */; };
+		75C0E5C8237CFBC000A36E7C /* 20101004Runaway Baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C0E5B9237CFBBB00A36E7C /* 20101004Runaway Baby.mp3 */; };
+		75C0E5C9237CFBC000A36E7C /* 20100720Just The Way You Are.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C0E5BA237CFBBC00A36E7C /* 20100720Just The Way You Are.mp3 */; };
+		75C0E5CB237CFBC000A36E7C /* 20170130That’s What I Like.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C0E5BC237CFBBD00A36E7C /* 20170130That’s What I Like.mp3 */; };
+		75C0E5CC237CFBC000A36E7C /* 20111107Count On Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C0E5BD237CFBBE00A36E7C /* 20111107Count On Me.mp3 */; };
+		75C0E5CD237CFBC000A36E7C /* 20130617Treasure.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C0E5BE237CFBC000A36E7C /* 20130617Treasure.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		750F4E6E237D362300D5D8D4 /* 20091215Nothin On You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "20091215Nothin On You.mp3"; sourceTree = "<group>"; };
+		75C0E598237C1FDF00A36E7C /* 10YearChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 10YearChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C0E59B237C1FDF00A36E7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75C0E59D237C1FDF00A36E7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		75C0E59F237C1FDF00A36E7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75C0E5A2237C1FDF00A36E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75C0E5A4237C1FEA00A36E7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75C0E5A7237C1FEA00A36E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75C0E5A9237C1FEA00A36E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75C0E5B0237CFBB500A36E7C /* 20121206Locked Out Of Heaven.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "20121206Locked Out Of Heaven.mp3"; sourceTree = "<group>"; };
+		75C0E5B1237CFBB600A36E7C /* 20110822Marry You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "20110822Marry You.mp3"; sourceTree = "<group>"; };
+		75C0E5B2237CFBB600A36E7C /* 20130115When I Was Your Man.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "20130115When I Was Your Man.mp3"; sourceTree = "<group>"; };
+		75C0E5B3237CFBB700A36E7C /* 20110215The Lazy Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "20110215The Lazy Song.mp3"; sourceTree = "<group>"; };
+		75C0E5B4237CFBB800A36E7C /* 2016100724K Magic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "2016100724K Magic.mp3"; sourceTree = "<group>"; };
+		75C0E5B5237CFBB800A36E7C /* 20180103Finesse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 20180103Finesse.mp3; sourceTree = "<group>"; };
+		75C0E5B6237CFBB900A36E7C /* 20141110Uptown Funk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "20141110Uptown Funk.mp3"; sourceTree = "<group>"; };
+		75C0E5B7237CFBBA00A36E7C /* 20100928Grenade.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 20100928Grenade.mp3; sourceTree = "<group>"; };
+		75C0E5B8237CFBBA00A36E7C /* 20100309Billionaire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 20100309Billionaire.mp3; sourceTree = "<group>"; };
+		75C0E5B9237CFBBB00A36E7C /* 20101004Runaway Baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "20101004Runaway Baby.mp3"; sourceTree = "<group>"; };
+		75C0E5BA237CFBBC00A36E7C /* 20100720Just The Way You Are.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "20100720Just The Way You Are.mp3"; sourceTree = "<group>"; };
+		75C0E5BC237CFBBD00A36E7C /* 20170130That’s What I Like.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "20170130That’s What I Like.mp3"; sourceTree = "<group>"; };
+		75C0E5BD237CFBBE00A36E7C /* 20111107Count On Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "20111107Count On Me.mp3"; sourceTree = "<group>"; };
+		75C0E5BE237CFBC000A36E7C /* 20130617Treasure.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 20130617Treasure.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75C0E595237C1FDE00A36E7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75C0E58F237C1FDE00A36E7C = {
+			isa = PBXGroup;
+			children = (
+				75C0E59A237C1FDF00A36E7C /* 10YearChallenge */,
+				75C0E599237C1FDF00A36E7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75C0E599237C1FDF00A36E7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75C0E598237C1FDF00A36E7C /* 10YearChallenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75C0E59A237C1FDF00A36E7C /* 10YearChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				75C0E5AF237CFB8200A36E7C /* music */,
+				75C0E59B237C1FDF00A36E7C /* AppDelegate.swift */,
+				75C0E59D237C1FDF00A36E7C /* SceneDelegate.swift */,
+				75C0E5A1237C1FDF00A36E7C /* Main.storyboard */,
+				75C0E59F237C1FDF00A36E7C /* ViewController.swift */,
+				75C0E5A4237C1FEA00A36E7C /* Assets.xcassets */,
+				75C0E5A6237C1FEA00A36E7C /* LaunchScreen.storyboard */,
+				75C0E5A9237C1FEA00A36E7C /* Info.plist */,
+			);
+			path = 10YearChallenge;
+			sourceTree = "<group>";
+		};
+		75C0E5AF237CFB8200A36E7C /* music */ = {
+			isa = PBXGroup;
+			children = (
+				75C0E5B4237CFBB800A36E7C /* 2016100724K Magic.mp3 */,
+				75C0E5BD237CFBBE00A36E7C /* 20111107Count On Me.mp3 */,
+				75C0E5B5237CFBB800A36E7C /* 20180103Finesse.mp3 */,
+				75C0E5B7237CFBBA00A36E7C /* 20100928Grenade.mp3 */,
+				75C0E5BA237CFBBC00A36E7C /* 20100720Just The Way You Are.mp3 */,
+				75C0E5B0237CFBB500A36E7C /* 20121206Locked Out Of Heaven.mp3 */,
+				750F4E6E237D362300D5D8D4 /* 20091215Nothin On You.mp3 */,
+				75C0E5B1237CFBB600A36E7C /* 20110822Marry You.mp3 */,
+				75C0E5B9237CFBBB00A36E7C /* 20101004Runaway Baby.mp3 */,
+				75C0E5B3237CFBB700A36E7C /* 20110215The Lazy Song.mp3 */,
+				75C0E5BE237CFBC000A36E7C /* 20130617Treasure.mp3 */,
+				75C0E5B2237CFBB600A36E7C /* 20130115When I Was Your Man.mp3 */,
+				75C0E5BC237CFBBD00A36E7C /* 20170130That’s What I Like.mp3 */,
+				75C0E5B6237CFBB900A36E7C /* 20141110Uptown Funk.mp3 */,
+				75C0E5B8237CFBBA00A36E7C /* 20100309Billionaire.mp3 */,
+			);
+			path = music;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75C0E597237C1FDE00A36E7C /* 10YearChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C0E5AC237C1FEA00A36E7C /* Build configuration list for PBXNativeTarget "10YearChallenge" */;
+			buildPhases = (
+				75C0E594237C1FDE00A36E7C /* Sources */,
+				75C0E595237C1FDE00A36E7C /* Frameworks */,
+				75C0E596237C1FDE00A36E7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 10YearChallenge;
+			productName = 10YearChallenge;
+			productReference = 75C0E598237C1FDF00A36E7C /* 10YearChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75C0E590237C1FDE00A36E7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = StanleyAppWorld;
+				TargetAttributes = {
+					75C0E597237C1FDE00A36E7C = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 75C0E593237C1FDE00A36E7C /* Build configuration list for PBXProject "10YearChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75C0E58F237C1FDE00A36E7C;
+			productRefGroup = 75C0E599237C1FDF00A36E7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75C0E597237C1FDE00A36E7C /* 10YearChallenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75C0E596237C1FDE00A36E7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C0E5CB237CFBC000A36E7C /* 20170130That’s What I Like.mp3 in Resources */,
+				75C0E5C8237CFBC000A36E7C /* 20101004Runaway Baby.mp3 in Resources */,
+				75C0E5A8237C1FEA00A36E7C /* LaunchScreen.storyboard in Resources */,
+				75C0E5C5237CFBC000A36E7C /* 20141110Uptown Funk.mp3 in Resources */,
+				75C0E5CD237CFBC000A36E7C /* 20130617Treasure.mp3 in Resources */,
+				75C0E5C9237CFBC000A36E7C /* 20100720Just The Way You Are.mp3 in Resources */,
+				75C0E5C0237CFBC000A36E7C /* 20110822Marry You.mp3 in Resources */,
+				750F4E6F237D362300D5D8D4 /* 20091215Nothin On You.mp3 in Resources */,
+				75C0E5BF237CFBC000A36E7C /* 20121206Locked Out Of Heaven.mp3 in Resources */,
+				75C0E5C2237CFBC000A36E7C /* 20110215The Lazy Song.mp3 in Resources */,
+				75C0E5A5237C1FEA00A36E7C /* Assets.xcassets in Resources */,
+				75C0E5A3237C1FDF00A36E7C /* Main.storyboard in Resources */,
+				75C0E5CC237CFBC000A36E7C /* 20111107Count On Me.mp3 in Resources */,
+				75C0E5C4237CFBC000A36E7C /* 20180103Finesse.mp3 in Resources */,
+				75C0E5C3237CFBC000A36E7C /* 2016100724K Magic.mp3 in Resources */,
+				75C0E5C1237CFBC000A36E7C /* 20130115When I Was Your Man.mp3 in Resources */,
+				75C0E5C6237CFBC000A36E7C /* 20100928Grenade.mp3 in Resources */,
+				75C0E5C7237CFBC000A36E7C /* 20100309Billionaire.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75C0E594237C1FDE00A36E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C0E5A0237C1FDF00A36E7C /* ViewController.swift in Sources */,
+				75C0E59C237C1FDF00A36E7C /* AppDelegate.swift in Sources */,
+				75C0E59E237C1FDF00A36E7C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		75C0E5A1237C1FDF00A36E7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75C0E5A2237C1FDF00A36E7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75C0E5A6237C1FEA00A36E7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75C0E5A7237C1FEA00A36E7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75C0E5AA237C1FEA00A36E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75C0E5AB237C1FEA00A36E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75C0E5AD237C1FEA00A36E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2KB5DX622;
+				INFOPLIST_FILE = 10YearChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stanleyappworld.-0YearChallenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75C0E5AE237C1FEA00A36E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2KB5DX622;
+				INFOPLIST_FILE = 10YearChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stanleyappworld.-0YearChallenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75C0E593237C1FDE00A36E7C /* Build configuration list for PBXProject "10YearChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C0E5AA237C1FEA00A36E7C /* Debug */,
+				75C0E5AB237C1FEA00A36E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75C0E5AC237C1FEA00A36E7C /* Build configuration list for PBXNativeTarget "10YearChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C0E5AD237C1FEA00A36E7C /* Debug */,
+				75C0E5AE237C1FEA00A36E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75C0E590237C1FDE00A36E7C /* Project object */;
+}
